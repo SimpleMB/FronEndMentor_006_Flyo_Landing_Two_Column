@@ -22,7 +22,7 @@ The designs were created to the following widths:
 ### Neutral
 
 - Light Grayish Blue: hsl(240, 75%, 98%)
-- Light Gray: hsl(0, 0%, 75%)
+- Light Gray: C
 
 ## Typography
 

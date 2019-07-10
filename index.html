@@ -11,6 +11,11 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Frontend Mentor | Fylo landing page with two column layout</title>
 
@@ -26,128 +31,148 @@
     </style>
   </head>
   <body>
-    <header>
-      <section class="logo">
-        <img src="./images/logo.svg" alt="logo flyo" />
-      </section>
-      <nav>
-        <ul>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Team</a></li>
-          <li><a href="#">Sign In</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section class="hero">
-        <div class="first">
-          <img src="./images/illustration-1.svg" alt="" />
-        </div>
-        <div class="second">
-          <h1>All your files in one secure location, accessible anywhere.</h1>
-          <p>
-            Fylo stores your most important files in one secure location. Access
-            them wherever you need, share and collaborate with friends, family,
-            and co-workers.
-          </p>
-          <form action="">
-            <input type="email" name="email" id="email" />
-            <button>Get Started</button>
-          </form>
-        </div>
-      </section>
-      <section class="feauture">
-        <h1>Stay productive, wherever you are.</h1>
-        <p>
-          Never let location be an issue when accessing your files. Fylo has you
-          covered for all of your file storage needs.
-        </p>
-        <p>
-          Securely share files and folders with friends, family and colleagues
-          for live collaboration. No email attachments required!
-        </p>
-        <a class="feature_link works" href="#">See how Fylo works</a>
-        <div class="quote">
-          <p>
-            Fylo has improved our team productivity by an order of magnitude.
-            Since making the switch our team has become a well-oiled
-            collaboration machine.
-          </p>
-          <div class="signature">
-            <img src="/images/avatar-testimonial.jpg" alt="avatar" />
-            <h2 class="name">Kyle Burton</h2>
-            <p>Founder & CEO, Huddle</p>
+    <div class="wrapper">
+      <header>
+        <section class="logo">
+          <img src="./images/logo.svg" alt="logo flyo" />
+        </section>
+        <nav>
+          <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Sign In</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="hero">
+          <div class="first">
+            <img
+              src="./images/illustration-1.svg"
+              alt="people stashing documents in folder"
+            />
           </div>
-        </div>
-      </section>
-      <section class="subscribe">
-        <section class="description">
-          <h1>Get early access today</h1>
-          <p>
-            It only takes a minute to sign up and our free starter tier is
-            extremely generous. If you have any questions, our support team
-            would be happy to help you.
-          </p>
+          <div class="second">
+            <h1>All your files in one secure location, accessible anywhere.</h1>
+            <p>
+              Fylo stores your most important files in one secure location.
+              Access them wherever you need, share and collaborate with friends,
+              family, and co-workers.
+            </p>
+            <form action="">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email..."
+              />
+              <button>Get Started</button>
+            </form>
+          </div>
         </section>
-        <section class="form-subcribe">
-          <input
-            type="email"
-            name="email-second"
-            id="email-second"
-            placeholder="Your email..."
-          />
-          <button>Get Started For Free</button>
+        <section class="feature">
+          <div class="grid-wrpper">
+            <div class="first">
+              <img src="./images/illustration-2.svg" alt="girl writing" />
+            </div>
+            <div class="second">
+              <h1>Stay productive, wherever you are.</h1>
+              <p>
+                Never let location be an issue when accessing your files. Fylo
+                has you covered for all of your file storage needs.
+              </p>
+              <p>
+                Securely share files and folders with friends, family and
+                colleagues for live collaboration. No email attachments
+                required!
+              </p>
+              <a class="feature_link works" href="#">See how Fylo works <img src="./images/icon-arrow.svg" alt=""></a>
+              <div class="quote">
+                <img src="../images/icon-quotes.svg" alt="" />
+                <p>
+                  Fylo has improved our team productivity by an order of
+                  magnitude. Since making the switch our team has become a
+                  well-oiled collaboration machine.
+                </p>
+                <div class="signature">
+                  <img src="/images/avatar-testimonial.jpg" alt="avatar" />
+                  <div class="credentials">
+                    <h2 class="name">Kyle Burton</h2>
+                    <p>Founder & CEO, Huddle</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
-      </section>
-    </main>
-    <footer>
-      <section class="logo">
-        <img src="" alt="" />
-      </section>
-      <section class="links">
-        <section class="address">
-          <ul>
-            <li>
-              <i></i>
-              <p>Phone: +1-543-123-4567</p>
-            </li>
-            <li>
-              <i></i>
-              <p>example@fylo.com</p>
-            </li>
-          </ul>
+        <section class="subscribe">
+          <section class="description">
+            <h1>Get early access today</h1>
+            <p>
+              It only takes a minute to sign up and our free starter tier is
+              extremely generous. If you have any questions, our support team
+              would be happy to help you.
+            </p>
+          </section>
+          <section class="form-subcribe">
+            <input
+              type="email"
+              name="email-second"
+              id="email-second"
+              placeholder="Enter your email..."
+            />
+            <button>Get Started For Free</button>
+          </section>
+        </section>
+      </main>
+      <footer>
+        <section class="logo">
+          <img src="" alt="" />
         </section>
         <section class="links">
-          <ul>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Jobs</a></li>
-            <li><a href="">Press</a></li>
-            <li><a href="">Blog</a></li>
-          </ul>
+          <section class="address">
+            <ul>
+              <li>
+                <i></i>
+                <p>Phone: +1-543-123-4567</p>
+              </li>
+              <li>
+                <i></i>
+                <p>example@fylo.com</p>
+              </li>
+            </ul>
+          </section>
+          <section class="links">
+            <ul>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Jobs</a></li>
+              <li><a href="">Press</a></li>
+              <li><a href="">Blog</a></li>
+            </ul>
+          </section>
+          <section class="links">
+            <ul>
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">Terms</a></li>
+              <li><a href="">Privacy</a></li>
+            </ul>
+          </section>
+          <section class="social-media">
+            <ul>
+              <li>
+                <a href="">F<i></i></a>
+              </li>
+              <li>
+                <a href="">T<i></i></a>
+              </li>
+              <li>
+                <a href="">I<i></i></a>
+              </li>
+            </ul>
+          </section>
         </section>
-        <section class="links">
-          <ul>
-            <li><a href="">Contact Us</a></li>
-            <li><a href="">Terms</a></li>
-            <li><a href="">Privacy</a></li>
-          </ul>
-        </section>
-        <section class="social-media">
-          <ul>
-            <li>
-              <a href="">F<i></i></a>
-            </li>
-            <li>
-              <a href="">T<i></i></a>
-            </li>
-            <li>
-              <a href="">I<i></i></a>
-            </li>
-          </ul>
-        </section>
-      </section>
-    </footer>
-
+      </footer>
+    </div>
     <div class="footer-mentor">
       <p class="attribution">
         Challenge by
