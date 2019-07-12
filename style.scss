@@ -81,7 +81,7 @@ body {
           li {
             margin-right: 5px;
             a {
-              padding: 10px 10px;
+              padding: 10px;
               color: $primary-verydarkblue-color;
               font-family: "Raleway", sans-serif;
               font-size: 12px;
@@ -510,6 +510,18 @@ body {
           font-size: 14px;
           .links3 {
             padding: 30px 50px;
+            ul {
+              li{
+                a{
+                  display: inline-block;
+                  padding: 5px 10px;
+                  border-radius: 20px;
+                  &:hover {
+                    background-color: $primary-desaturatedblue-color;
+                  }
+                }
+              }
+            }
           }
           .social-media {
             padding-top: 20px;
